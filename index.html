@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website of Sayan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fcda2c3477.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>S</span>ayan.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header"><span>H</span>ome</a></li>
+                    <li><a href="#about"><span>A</span>bout</a></li>
+                    <li><a href="#Achievement"><span>A</span>chievement</a></li>
+                    <li><a href="#Contact"><span>C</span>ontact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Sayan Chakraborty</span><br> From India, Kolkata</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Aboutimg.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Hello i am Sayan Chakraborty. I am from kolkata. Over the years i'm developing my skills and qualities by learning new skills. I have done my schooling from Barrackpore Government High School in the year of 2016.After that I completed my Diploma Course from Malda Polytechnic college, Specialization in Automobile Engineering in the year of 2020.Currently i am pursuing my B.Tech form Narula Institute of Technology, Specialization in Mechanical Engineering. My strength are that i am a very first learner. So i can learn any technology very quickly.My another strength is that i am remain calm under pressure, so if the things are going wrong i can be the trusted member of the team.Finally my bigest strength is that i am very good at planning and organizing my work so basically i cam manage multiple project  and task in same time and with right standard. In my free time i would love to play videogames and i also love to listen music these are my hobbies. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Project')">Project</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>JAVA,C</span><br>OOPS Concept<br>Basic C Programing</li>
+                            <li><span>WEB DEVELOPMENT</span><br>Designing web interfaces<br>HTML,CSS,Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Project">
+                        <ul>
+                            <li><span>ATM Application</span><br>Implementation of oops concept through this project to built an ATM Application to get an idea that how to implement those concept in real life project<br></li>
+                            <li><span>Portfolio Website</span><br>Creating and Designing a personal portfolio website using concept of HTML,CSS and JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>Schooling from Barrackpore Govt High School<br>With 65%</li>
+                            <li><span>2017 - 2020</span><br>Diploma from Malda Polytechnic<br>Specialization in Automobile Engineering with 68%</li>
+                            <li><span>2020 - PRESENT</span><br>B.Tech from Narula Institute of Technology<br>Specialization in Mechanical Engineering(CGPA 8.39)</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Achievement-------->
+    <div id="Achievement">
+        <div class="container">
+            <h1 class="sub-title">My Achievement</h1>
+            <div class="Achievement-list">
+                <div>
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Honors</h2>
+                    <p>• Participated in SMART INDIA HACKATHON 2022 and got a certificate.<br>• Participate in the Online Business Plan and Prototype Competition organized by the MHRD IIC and got a certificate<br>• Participated in National Level Quiz Competition organized by (BIET) Hyderabad and got a certificate.<br>• I Got certificate For Participated in International Day of Yoga From NATIONAL CADET CORPS.<br>• Participated in North 24 Parganas District Gymnastics Championship andgot certificate.<br>• participated in All Bengal Inter Govt.Schools Sports Meet and got certificate.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-biohazard"></i>
+                    <h2>Awards</h2>
+                    <p>• I have completed my Diploma in Information Technology Application with Grade A From Youth Computer Training Center.<br>• I have successfully completed training For the DOMESTIC DATA ENTRY OPERATOR role from National Skill Development Corporation.<br>• I Achieved a Completion Certificate From Business Enterprise Solution with Tally.ERP9</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <h2>Social Activities</h2>
+                    <p>• Organized Blood Donation Camp Every 6 Months<br>• Celebrating 5th year anniversary of our social organization in 2022<br>• Food and Clothes distribution campaign in every 6 months<br>• Got Awards for the best social works in our locality</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Scrool Top</a>
+        </div>
+    </div>
+<!----------------Contact Informantion------------>
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="Contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope-circle-check"></i>iamsayan13201518@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6291171034</p>
+                    <div class="social-icons">
+                        <a  class="fb" href="https://www.facebook.com/iamsayan13201518" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="insta" href="https://www.instagram.com/mavrix0p/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="github" href="https://github.com/Sayan1320" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="linkdin" href="https://www.linkedin.com/in/sayan-chakraborty-b804a624b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/UPDATED RESUME SAYAN (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sayan. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+ <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzcBjjFA_3qpRmLDCOSgksJoejyoa8aRksWU3OE-Rs-2a4CTslW4I21IpAIa3Rgycd3rg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    
+</body>
+</html>
